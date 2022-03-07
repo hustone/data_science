@@ -1,6 +1,6 @@
 import numpy as np
 
-random_values = np.random.randint(0, 10, 100)
+random_values = np.random.randint(0, 100, 100)
 expectation = np.mean(random_values)
 std = np.std(random_values)
 
